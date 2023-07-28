@@ -1,0 +1,75 @@
+.menuHaut .navbar {
+    float: right;
+}
+
+.list ul li {
+    list-style: none;
+    margin: 15px;
+}
+
+.list ul {
+    background-color: rgb(191, 190, 190);
+}
+
+.list ul li a {
+    text-decoration: none;
+    color: grey;
+}
+
+.clear {
+    clear: both;
+}
+
+.navbar-toggler {
+    border: 1px solid white;
+    z-index: 2;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+header h1,
+header h4 {
+    color: white;
+    text-align: center;
+}
+
+.carousel {
+    position: absolute;
+}
+
+.menuHaut {
+    position: relative;
+}
+
+
+@media screen and (max-width: 480px) {
+    .btn-group {
+        display: flex;
+        flex-direction: column;
+        }
+    .btn {
+        width: 400px;
+    }
+    .container {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .btn-group {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn {
+        width: 400px;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+    }
+}
